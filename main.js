@@ -1,9 +1,9 @@
-// Función posición final
+    // Función posición final
 function calcularPosicionFinal(velocidad, posicionInicial, tiempo) {
     return posicionInicial + (velocidad * tiempo);
   }
   
-  // Ciclos
+    // Ciclos
   do {
     let velocidad = parseFloat(prompt("Ingresa la velocidad (en metros por segundo):"));
     let posicionInicial = parseFloat(prompt("Ingresa la posición inicial (en metros):"));
@@ -13,10 +13,10 @@ function calcularPosicionFinal(velocidad, posicionInicial, tiempo) {
     if (tiempo < 0) {
       alert("El tiempo no puede ser negativo.");
     } else {
-      // Calculo función
+    // Calculo función
       let posicionFinal = calcularPosicionFinal(velocidad, posicionInicial, tiempo);
   
-      // Resultado
+    // Resultado
       alert("La posición final después de " + tiempo + " segundos es: " + posicionFinal + " metros.");
     }
     
